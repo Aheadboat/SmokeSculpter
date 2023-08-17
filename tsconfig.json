@@ -10,6 +10,7 @@
     "sourceMap": true,
     "forceConsistentCasingInFileNames": false,
     "outDir": "dist",
+    "allowJs": true,
   },
   "paths": {
       "@src/*": ["src/*"],
@@ -20,7 +21,10 @@
     "jest"
   ],
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/index.html",
+    "src/lib/math.js",
+    "src/shaders/**/*"
   ],
   "exclude": [
     "node_modules"
